@@ -6,9 +6,7 @@ Dollhouse is a way to deploy servers.
 
 Before you can use Dollhouse to set up a new server you first need to do 2 things.
 
-1. Enable root access via ssh by adding the following line to ssh_config:
-
-  PermitRootLogin yes
+1. Enable root access via ssh.
   
 2. Install your public key in authorized_keys for the root account.
 
